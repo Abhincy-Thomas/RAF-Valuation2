@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_jj_ss_raf_revaluation">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>JJ SS Raf Revaluation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/JOBINANDJISMI/RAF Revaluation/jj_ss_raf_revaluation_otp_5245.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jj_ss_raf_revaluation">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>JJ SS Raf Revaluation</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2024-01-05</startdate>
+          <starttime>02:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>
